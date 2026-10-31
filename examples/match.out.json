@@ -1,0 +1,17 @@
+{
+  "exitCode": 0,
+  "report": {
+    "tool": "kar-canon",
+    "algorithm": "kar-canon-v1",
+    "verdict": "MATCH",
+    "a": {
+      "sha256": "99df9e4618b0c580e29f87eabbf29eaafd6bf34c65267e2030b134c2fa4e3c71",
+      "canonical": "{\"currency\":\"GBP\",\"items\":[\"quill\",\"ink\"],\"order_id\":\"A-1042\",\"total\":19.9}"
+    },
+    "b": {
+      "sha256": "99df9e4618b0c580e29f87eabbf29eaafd6bf34c65267e2030b134c2fa4e3c71",
+      "canonical": "{\"currency\":\"GBP\",\"items\":[\"quill\",\"ink\"],\"order_id\":\"A-1042\",\"total\":19.9}"
+    },
+    "diffs": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+ "kind": "kar-canon.witness",
+ "v": 1,
+ "witness": {
+  "tag": "v0.6",
+  "commit": "f04fe3047e3d49b98c67713befd5b77182afa0d4",
+  "sha256": "eb0ed198306b596e58d62cab030cb839bd20402f53f78d5e52f345e963bebf64"
+ },
+ "kernel": "kernel.mjs",
+ "kernelSha256": "05ab11927b12a4b487185d64fb570a584a16ee32fcded079710014b10180674d",
+ "tests": "node --test kernel.test.mjs",
+ "testsSha256": "31e52305a04d2435291df36cc2fef487451f7be2b538ad4abe3a83ecc6ab3e01",
+ "node": "v25.7.0",
+ "platform": "win32",
+ "total": 19,
+ "killed": 19,
+ "survived": [],
+ "ignored": [],
+ "capped": false,
+ "timeoutMs": 60000,
+ "clean": true,
+ "seconds": 36,
+ "rerun": "git clone https://github.com/sjgant80-hub/witness && git -C witness checkout v0.6 && node gate.mjs --witness witness/witness.mjs"
+}

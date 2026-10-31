@@ -1,0 +1,24 @@
+{
+  "exitCode": 1,
+  "report": {
+    "tool": "kar-canon",
+    "algorithm": "kar-canon-v1",
+    "verdict": "DIFFER",
+    "a": {
+      "sha256": "5fde1795f9bf67e9b43f289c12add961541d7e51ea5703b4c227b675d81dc156",
+      "canonical": "{\"action\":\"refund\",\"amount\":100,\"approved\":true,\"currency\":\"USD\"}"
+    },
+    "b": {
+      "sha256": "337ead64b4fc735ee3c3c99ccca1536bc7f93a965e500f440dc3d8bc312e926c",
+      "canonical": "{\"action\":\"refund\",\"amount\":150,\"approved\":true,\"currency\":\"USD\"}"
+    },
+    "diffs": [
+      {
+        "path": "$.amount",
+        "kind": "changed",
+        "from": 100,
+        "to": 150
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "a": { "action": "refund", "amount": 100, "currency": "USD", "approved": true },
+  "b": { "action": "refund", "amount": 150, "currency": "USD", "approved": true }
+}
