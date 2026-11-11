@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>kar-canon — Canonical JSON Proof</title>
-<meta name="description" content="Prove two differently-formatted JSON documents encode exactly the same data, or pinpoint precisely where they diverge. Deterministic, offline, third-party re-runnable — no LLM judge.">
+<meta name="description" content="Prove two differently-formatted JSON documents encode exactly the same data, or pinpoint precisely where they diverge. Deterministic, offline, anyone can re-run it — no AI judge.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0d12'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='%235eead4' font-family='monospace' font-weight='bold'%3E%3D%3C/text%3E%3C/svg%3E">
 <style>
   :root {
@@ -344,9 +344,9 @@
     </div>
     <div class="tagline">Canonical JSON equivalence prover. Paste two JSON documents that <em>should</em> mean the same thing — different key order, whitespace, or number formatting — and get a byte-identical canonical hash if, and only if, they truly encode the same data. If they don't, it points at exactly where they diverge.</div>
     <div class="pills">
-      <span class="pill">sovereign / offline</span>
+      <span class="pill">runs offline</span>
       <span class="pill">single file, no server</span>
-      <span class="pill">no LLM judge</span>
+      <span class="pill">no AI judge</span>
       <span class="pill">SHA-256 via crypto.subtle</span>
       <span class="pill">third-party re-runnable</span>
     </div>
@@ -567,7 +567,7 @@
 <!-- ⟦EXPLAIN-REST-END⟧ -->
 
   <footer>
-    Part of Kar's provable/accountable AI toolkit — sovereign, single-file, offline, no server, no external calls, no LLM judge. A verdict here is something anyone can recompute byte-for-byte from the algorithm above.<br>
+    Part of Kar's toolkit of checks anyone can re-run — one file, offline, no server, no external calls, no AI judge. A verdict here is something anyone can recompute byte-for-byte from the algorithm above.<br>
     Agents can run the same check: <a href="https://github.com/sjgant80-hub/kar-canon">source, agent skill and mutation receipt</a>.
     Powered by the Konomi architecture, created by Thomas Frumkin.
   </footer>
